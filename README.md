@@ -75,15 +75,20 @@ This app demonstrates several key themes expected at WWDC25:
 - **Journal API**: Structured memory data with privacy controls
 - **Apptics SDK**: User interaction analytics (placeholder implementation)
 
-## 📋 Demo Instructions
-
-Since this is a demo app for presentation purposes:
-
 ### Running the Demo
-1. Open the project in Xcode 15+
-2. Select iOS Simulator (iPhone 15 Pro recommended)
-3. Build and run the project
-4. Navigate through the people list to explore memories
+
+**Option 1: Xcode (Recommended)**
+1. Open Xcode 15.0 or later
+2. Create a new iOS project named "LOOP"
+3. Copy the provided Swift files into your project
+4. Build and run (⌘+R)
+
+**Option 2: Quick Preview (No Xcode)**
+Since this is a SwiftUI iOS app, you can review the code structure and UI components in the provided files:
+- `ContentView.swift` - Main home screen
+- `MemoryDetailView.swift` - Detailed memory view
+- `Models/PersonModel.swift` - Data structures
+- `Views/Components/` - Reusable UI components
 
 ### Demo Flow
 1. **Start**: Home screen shows 3 important relationships
